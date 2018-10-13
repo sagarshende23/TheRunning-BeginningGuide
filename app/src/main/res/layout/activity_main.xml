@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btnapp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/btnstart" />
+
+<LinearLayout
+    android:translationY="550dp"
+   android:id="@+id/nikelayout"
+    android:elevation="6dp"
+    android:background="#090927"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="800dp">
+
+    <LinearLayout
+        android:id="@+id/nikeheader"
+        android:paddingTop="11dp"
+        android:paddingRight="24dp"
+        android:paddingLeft="24dp"
+        android:background="#3c3dFF"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="1dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:text="Method Of Running"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="13sp"
+                android:textColor="#9293FF"
+                android:text="Beginner Guide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btncls"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bgcls"
+                android:textColor="#FFF"
+                android:textSize="12sp"
+                android:text="Close"
+                android:layout_width="73dp"
+                android:layout_height="26dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1900dp">
+
+
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="90dp"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:text="Begineer Guide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#ABABE7"
+                android:textSize="18sp"
+                android:text="Starting a new running habit can feel overwhelming to a beginner runner. If you're feeling intimidated or nervous about getting started with running, don't worry, that's completely normal. Instead of starting your running habit blindly, it's helpful to learn some basic information about running. Here are some of the basics about running to help you get started as soon as Possible."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#ABABE7"
+                android:textSize="18sp"
+                android:text="Some people are natural heel-strikers while others tend to lead with their toes. The good news: neither form is inherently better than the other. And you are less likely to become injured if you simply maintain your natural stride. The more you run, the more comfortable that stride will feel and — even better — the more efficient your body will become."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rungirl"
+                android:layout_width="300dp"
+                android:layout_height="240dp" />
+
+            <TextView
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#ABABE7"
+                android:textSize="18sp"
+                android:text="Most new runners start with a 5K — a 3.1-mile race that is typically less intimidating than a longer race. Your local 5K will attract a fun, relaxed group of new runners and walkers, as well as more experienced runners who like to go fast.For this plan, you will run for 30 minutes every Tuesday and Thursday, and for longer distances on Sundays. The Sunday runs are listed below. Remember, you can always use the run-walk method instead of running the entire distance. Training Time: 7 weeks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:paddingLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:text="*****Thank You*****"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+</RelativeLayout>
